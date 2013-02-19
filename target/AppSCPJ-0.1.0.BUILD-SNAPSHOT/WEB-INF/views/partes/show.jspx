@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_br_com_appscpj_domain_Parte" object="${parte}" path="/partes" z="WbqmRSGIBB5ZuUJKGgAtjnBT1tQ=">
+        <field:display field="nome" id="s_br_com_appscpj_domain_Parte_nome" object="${parte}" z="5TuU7yC2nFFsMsNyZu9zvVdsoPg="/>
+        <field:display field="rg" id="s_br_com_appscpj_domain_Parte_rg" object="${parte}" z="DIQlZV4A+UDT4E3Qw4fqn5zBmTI="/>
+        <field:display field="cpf" id="s_br_com_appscpj_domain_Parte_cpf" object="${parte}" z="6Rtuf7LX2vxET6ikMioHmYr/5ns="/>
+        <field:display field="rua" id="s_br_com_appscpj_domain_Parte_rua" object="${parte}" z="oqXwCQXCHFeXEemz1kaxDM0zC08="/>
+        <field:display field="numero" id="s_br_com_appscpj_domain_Parte_numero" object="${parte}" z="cal89jugss00dSRbjyP1FMPRhZE="/>
+        <field:display field="complemento" id="s_br_com_appscpj_domain_Parte_complemento" object="${parte}" z="D393ps/cV0YbZaOenDVcubea9cA="/>
+        <field:display field="bairro" id="s_br_com_appscpj_domain_Parte_bairro" object="${parte}" z="nkH5BE0VfgE3a3oyne7Xd2i3PQ8="/>
+        <field:display field="cidade" id="s_br_com_appscpj_domain_Parte_cidade" object="${parte}" z="aCPcBBZ+Z/KCADo/qXQ/7cVItN8="/>
+        <field:display field="uf" id="s_br_com_appscpj_domain_Parte_uf" object="${parte}" z="Oowbogs7tMaG8NtOpvWX9KQi/8E="/>
+        <field:display field="celular" id="s_br_com_appscpj_domain_Parte_celular" object="${parte}" z="lFSpmT8J/c5/pHIfbZ45v+kDFdQ="/>
+        <field:display field="email" id="s_br_com_appscpj_domain_Parte_email" object="${parte}" z="YFmKB3uvLtORJCcOytLgGwu+myo="/>
+    </page:show>
+</div>

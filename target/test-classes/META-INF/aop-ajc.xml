@@ -1,0 +1,17 @@
+<aspectj>
+<aspects>
+<aspect name="br.com.appscpj.domain.AdvogadoDataOnDemand_Roo_Configurable"/>
+<aspect name="br.com.appscpj.domain.AdvogadoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="br.com.appscpj.domain.ProcessoDataOnDemand_Roo_Configurable"/>
+<aspect name="br.com.appscpj.domain.ParteIntegrationTest_Roo_Configurable"/>
+<aspect name="br.com.appscpj.domain.ProcessoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="br.com.appscpj.domain.AdvogadoIntegrationTest_Roo_Configurable"/>
+<aspect name="br.com.appscpj.domain.AdvogadoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="br.com.appscpj.domain.ProcessoIntegrationTest_Roo_Configurable"/>
+<aspect name="br.com.appscpj.domain.ParteDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="br.com.appscpj.domain.ProcessoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="br.com.appscpj.domain.ParteIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="br.com.appscpj.domain.ParteDataOnDemand_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

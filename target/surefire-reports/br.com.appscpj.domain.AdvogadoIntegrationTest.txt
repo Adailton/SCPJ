@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.appscpj.domain.AdvogadoIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.198 sec

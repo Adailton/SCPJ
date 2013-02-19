@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_br_com_appscpj_domain_Advogado" items="${advogadoes}" z="X3SzH0N4Ri9A14q/zDitEamB0UA=">
+        <table:table data="${advogadoes}" id="l_br_com_appscpj_domain_Advogado" path="/advogadoes" z="1kYxSbTzCc234iLXHjzkLGRwlT4=">
+            <table:column id="c_br_com_appscpj_domain_Advogado_nome" property="nome" z="t7BJUXCH0xDPqj6/9X9k4YLl5LA="/>
+            <table:column id="c_br_com_appscpj_domain_Advogado_oab" property="oab" z="pXG9+bhy/GbzhDFrz9B2b5fzQbI="/>
+            <table:column id="c_br_com_appscpj_domain_Advogado_rua" property="rua" z="6/5nyN9H0Tftzo015RzX6CszTj4="/>
+            <table:column id="c_br_com_appscpj_domain_Advogado_numero" property="numero" z="V2HCmt0OYs9SzV51bOhHQLBNG+M="/>
+            <table:column id="c_br_com_appscpj_domain_Advogado_complemento" property="complemento" z="8WAH2969TY69yer+lgvx0gLXM0g="/>
+            <table:column id="c_br_com_appscpj_domain_Advogado_bairro" property="bairro" z="6dfa/woJ7U6x9zOqghUM2X1Cvio="/>
+        </table:table>
+    </page:list>
+</div>

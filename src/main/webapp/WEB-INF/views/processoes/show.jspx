@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_br_com_appscpj_domain_Processo" object="${processo}" path="/processoes" z="ufG53jPkCSKcP1XQ4/JPP4ruhkU=">
+        <field:display field="numero" id="s_br_com_appscpj_domain_Processo_numero" object="${processo}" z="DYtw+Qv8TPJYlgKvRW+9MzbPbZ4="/>
+        <field:display date="true" dateTimePattern="${processo_dataabertura_date_format}" field="dataAbertura" id="s_br_com_appscpj_domain_Processo_dataAbertura" object="${processo}" z="0Ff/ZHn4qkohdcbNMrlk77G6YnM="/>
+        <field:display date="true" dateTimePattern="${processo_dataencerramento_date_format}" field="dataEncerramento" id="s_br_com_appscpj_domain_Processo_dataEncerramento" object="${processo}" z="MphfTR8plij6avmRTTDssd+H424="/>
+        <field:display field="status" id="s_br_com_appscpj_domain_Processo_status" object="${processo}" z="FmFOngkAzM9KleOMOBh37e5Va9g="/>
+        <field:display field="tipoProcesso" id="s_br_com_appscpj_domain_Processo_tipoProcesso" object="${processo}" z="3+z4KE59TF2q/ya2FASo+RSQcn4="/>
+        <field:display field="partes" id="s_br_com_appscpj_domain_Processo_partes" object="${processo}" z="9qchhkFnZEAPyihn4dWFwAnePL0="/>
+        <field:display field="advogados" id="s_br_com_appscpj_domain_Processo_advogados" object="${processo}" z="XMDIhF/H13d5+66XW576r7DMbvo="/>
+    </page:show>
+</div>

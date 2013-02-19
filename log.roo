@@ -1,0 +1,52 @@
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-02-18 19:56:24
+project --projectName AppSCPJ --topLevelPackage br.com.appscpj
+persistence setup --database MYSQL --provider HIBERNATE 
+database properties list
+database properties set --key database.url --value jdbc:mysql://localhost:3306/appscpj
+database properties set --key database.username --value root
+database properties set --key database.password --value caze2007
+database properties list
+entity jpa --class ~.domain.Advogado --activeRecord false --testAutomatically 
+field string --fieldName nome --notNull 
+field string --fieldName oab --notNull 
+field string --fieldName rua 
+field string --fieldName numero
+field string --fieldName complemento
+field string --fieldName bairro
+field string --fieldName cidade
+field string --fieldName uf
+field string --fieldName celular --notNull 
+field string --fieldName email --notNull 
+entity jpa --class ~.domain.Parte --activeRecord false --testAutomatically 
+field string --fieldName nome --notNull 
+field number --fieldName rg --type int --notNull --max 11
+field number --fieldName cpf --type int --notNull --max 11
+field string --fieldName rua --notNull 
+field string --fieldName numero --notNull 
+field string --fieldName complemento
+field string --fieldName bairro --notNull 
+field string --fieldName cidade --notNull 
+field string --fieldName uf --notNull 
+field string --fieldName celular --notNull 
+field string --fieldName email
+entity jpa --class ~.domain.Processo --activeRecord false --testAutomatically 
+field number --fieldName numero --type java.math.BigDecimal
+field date --fieldName dataAbertura --type java.util.Date
+field date --fieldName dataEncerramento --type java.util.Date
+field string --fieldName status --notNull 
+field string --fieldName tipoProcesso --notNull 
+field set --fieldName partes --type ~.domain.Parte
+field set --fieldName advogados --type ~.domain.Advogado
+repository jpa --interface ~.dao.AdvogadoDao --entity ~.domain.Advogado
+repository jpa --interface ~.dao.ParteDao --entity ~.domain.Parte
+repository jpa --interface ~.dao.ProcessoDao --entity ~.domain.Processo
+service --interface ~.service.AdvogadoService --entity ~.domain.Advogado
+service --interface ~.service.ParteService --entity ~.domain.Parte
+service --interface ~.service.ProcessoService --entity ~.domain.Processo
+json all --deepSerialize 
+web mvc json setup
+web mvc json all
+web mvc setup
+web mvc all --package ~.web
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-02-18 21:29:01

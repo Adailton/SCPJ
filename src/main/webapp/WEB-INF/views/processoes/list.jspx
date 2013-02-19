@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_br_com_appscpj_domain_Processo" items="${processoes}" z="bptPD1V/I07y+wqj+1P9vNcbxkA=">
+        <table:table data="${processoes}" id="l_br_com_appscpj_domain_Processo" path="/processoes" z="jhg/22TX1odflY15TRBD830XD6s=">
+            <table:column id="c_br_com_appscpj_domain_Processo_numero" property="numero" z="F0E72sRie/stym9/d+WlWD7bQMI="/>
+            <table:column date="true" dateTimePattern="${processo_dataabertura_date_format}" id="c_br_com_appscpj_domain_Processo_dataAbertura" property="dataAbertura" z="5pIo3dXOpujqcpHcK3C7Waluufk="/>
+            <table:column date="true" dateTimePattern="${processo_dataencerramento_date_format}" id="c_br_com_appscpj_domain_Processo_dataEncerramento" property="dataEncerramento" z="76+w1IO5pB1S/g9zSEqIv4E6abQ="/>
+            <table:column id="c_br_com_appscpj_domain_Processo_status" property="status" z="yOyn41iR9ir4Y6MvCnDBlBgwgTk="/>
+            <table:column id="c_br_com_appscpj_domain_Processo_tipoProcesso" property="tipoProcesso" z="8sAXRNFsVzzDJ/wp0cbxECy+EFg="/>
+            <table:column id="c_br_com_appscpj_domain_Processo_partes" property="partes" z="+0XQg7flfJZAj9t5xBrcJqlyRPg="/>
+        </table:table>
+    </page:list>
+</div>

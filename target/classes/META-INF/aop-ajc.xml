@@ -1,0 +1,33 @@
+<aspectj>
+<aspects>
+<aspect name="br.com.appscpj.service.AdvogadoService_Roo_Service"/>
+<aspect name="br.com.appscpj.domain.Processo_Roo_Json"/>
+<aspect name="br.com.appscpj.domain.Advogado_Roo_Json"/>
+<aspect name="br.com.appscpj.dao.AdvogadoDao_Roo_Jpa_Repository"/>
+<aspect name="br.com.appscpj.AdvogadoController_Roo_Controller"/>
+<aspect name="br.com.appscpj.ParteController_Roo_Controller"/>
+<aspect name="br.com.appscpj.domain.Parte_Roo_ToString"/>
+<aspect name="br.com.appscpj.domain.Advogado_Roo_ToString"/>
+<aspect name="br.com.appscpj.domain.Advogado_Roo_JavaBean"/>
+<aspect name="br.com.appscpj.service.ParteServiceImpl_Roo_Service"/>
+<aspect name="br.com.appscpj.ParteController_Roo_Controller_Json"/>
+<aspect name="br.com.appscpj.domain.Processo_Roo_ToString"/>
+<aspect name="br.com.appscpj.service.ParteService_Roo_Service"/>
+<aspect name="br.com.appscpj.domain.Parte_Roo_Json"/>
+<aspect name="br.com.appscpj.service.ProcessoServiceImpl_Roo_Service"/>
+<aspect name="br.com.appscpj.domain.Advogado_Roo_Jpa_Entity"/>
+<aspect name="br.com.appscpj.domain.Parte_Roo_Jpa_Entity"/>
+<aspect name="br.com.appscpj.domain.Parte_Roo_JavaBean"/>
+<aspect name="br.com.appscpj.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="br.com.appscpj.ProcessoController_Roo_Controller"/>
+<aspect name="br.com.appscpj.dao.ProcessoDao_Roo_Jpa_Repository"/>
+<aspect name="br.com.appscpj.AdvogadoController_Roo_Controller_Json"/>
+<aspect name="br.com.appscpj.domain.Processo_Roo_JavaBean"/>
+<aspect name="br.com.appscpj.ProcessoController_Roo_Controller_Json"/>
+<aspect name="br.com.appscpj.domain.Processo_Roo_Jpa_Entity"/>
+<aspect name="br.com.appscpj.service.ProcessoService_Roo_Service"/>
+<aspect name="br.com.appscpj.dao.ParteDao_Roo_Jpa_Repository"/>
+<aspect name="br.com.appscpj.service.AdvogadoServiceImpl_Roo_Service"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_br_com_appscpj_domain_Advogado" modelAttribute="advogado" path="/advogadoes" versionField="Version" z="HP2lW7lv1AS2jwioaVrRJ1ma11s=">
+        <field:input field="nome" id="c_br_com_appscpj_domain_Advogado_nome" required="true" z="ipOw7rDRjBLQ8GesENhlyI7AZY8="/>
+        <field:input field="oab" id="c_br_com_appscpj_domain_Advogado_oab" required="true" z="qdoo8iXF0yFsZMPHk0oR9Ma8n1c="/>
+        <field:input field="rua" id="c_br_com_appscpj_domain_Advogado_rua" z="CK6KDnpnWh20excXvX2g/2Nszq0="/>
+        <field:input field="numero" id="c_br_com_appscpj_domain_Advogado_numero" z="kIbHUJhhcVVl3Fq0oZqXm1mOZ6k="/>
+        <field:input field="complemento" id="c_br_com_appscpj_domain_Advogado_complemento" z="jg6mg9He0mEZ06GvF/ytRYzcL3g="/>
+        <field:input field="bairro" id="c_br_com_appscpj_domain_Advogado_bairro" z="48viU3WHtB6M8Kur+Xr5Nrb5ssk="/>
+        <field:input field="cidade" id="c_br_com_appscpj_domain_Advogado_cidade" z="UGf4pPO+fDHhITzWv05nGOjChTI="/>
+        <field:input field="uf" id="c_br_com_appscpj_domain_Advogado_uf" z="89cZQutlNOLLrKd8IJqUEjgiU6Q="/>
+        <field:input field="celular" id="c_br_com_appscpj_domain_Advogado_celular" required="true" z="Le0OIJVN2ddZAQoKwnF9gWJbimA="/>
+        <field:input field="email" id="c_br_com_appscpj_domain_Advogado_email" required="true" validationMessageCode="field_invalid_email" z="RCY3BcCBfYSZ6TgJcb8hI6aoMNE="/>
+    </form:update>
+</div>

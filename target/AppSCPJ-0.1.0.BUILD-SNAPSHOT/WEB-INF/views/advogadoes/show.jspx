@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_br_com_appscpj_domain_Advogado" object="${advogado}" path="/advogadoes" z="jD6VT7fulof9R8wspj87RqcwDKc=">
+        <field:display field="nome" id="s_br_com_appscpj_domain_Advogado_nome" object="${advogado}" z="nAZc8tQTp/zABaXxlSwRTC6You8="/>
+        <field:display field="oab" id="s_br_com_appscpj_domain_Advogado_oab" object="${advogado}" z="wgarsez0SU1iuW1/Ao3eTp0zRjY="/>
+        <field:display field="rua" id="s_br_com_appscpj_domain_Advogado_rua" object="${advogado}" z="hwu9u62t8hCJL+tjeFXEqSXVx+o="/>
+        <field:display field="numero" id="s_br_com_appscpj_domain_Advogado_numero" object="${advogado}" z="O8RVdsPI9qRsYRH35siJQjoS25c="/>
+        <field:display field="complemento" id="s_br_com_appscpj_domain_Advogado_complemento" object="${advogado}" z="yP/IkvWBpSN0Yyf8KMTg8Q/XyG8="/>
+        <field:display field="bairro" id="s_br_com_appscpj_domain_Advogado_bairro" object="${advogado}" z="DWSstSGOwXOQw7wbPQopL+HSinI="/>
+        <field:display field="cidade" id="s_br_com_appscpj_domain_Advogado_cidade" object="${advogado}" z="/wGzftP6ctJFnDr2skVLqfN1HFc="/>
+        <field:display field="uf" id="s_br_com_appscpj_domain_Advogado_uf" object="${advogado}" z="xbQxCd1K3XMfCKQSkMuEv8ZcUmg="/>
+        <field:display field="celular" id="s_br_com_appscpj_domain_Advogado_celular" object="${advogado}" z="OOk7fGatKBet4vm+kjCMaoo75nY="/>
+        <field:display field="email" id="s_br_com_appscpj_domain_Advogado_email" object="${advogado}" z="+YNArp95+zNjxUsYAV6Ea7TnSm8="/>
+    </page:show>
+</div>

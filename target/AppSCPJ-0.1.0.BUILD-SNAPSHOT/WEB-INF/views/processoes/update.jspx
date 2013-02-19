@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_br_com_appscpj_domain_Processo" modelAttribute="processo" path="/processoes" versionField="Version" z="GYUd/Zg8+5MHwL0bffAlEmzsAWY=">
+        <field:input field="numero" id="c_br_com_appscpj_domain_Processo_numero" validationMessageCode="field_invalid_number" z="60/BuiPoG5+LzlsGlOXx5iGRZ3Y="/>
+        <field:datetime dateTimePattern="${processo_dataabertura_date_format}" field="dataAbertura" id="c_br_com_appscpj_domain_Processo_dataAbertura" z="bTjvNyQEbfxOxmmcoquaK4bP9yM="/>
+        <field:datetime dateTimePattern="${processo_dataencerramento_date_format}" field="dataEncerramento" id="c_br_com_appscpj_domain_Processo_dataEncerramento" z="qxIiUadZX5HfcKrTv0Fj3AhfMI0="/>
+        <field:input field="status" id="c_br_com_appscpj_domain_Processo_status" required="true" z="ZQQHk8zWFjOczcHXcO82jm2ym74="/>
+        <field:input field="tipoProcesso" id="c_br_com_appscpj_domain_Processo_tipoProcesso" required="true" z="YsKAt611V79seYLurE6dB4R8ugc="/>
+        <field:select field="partes" id="c_br_com_appscpj_domain_Processo_partes" itemValue="id" items="${partes}" multiple="true" path="/partes" z="TNm541quL6ve1XceO5gGpAs89SE="/>
+        <field:select field="advogados" id="c_br_com_appscpj_domain_Processo_advogados" itemValue="id" items="${advogadoes}" multiple="true" path="/advogadoes" z="Lk466gNwOgOscD5AoeyG/0DqOnE="/>
+    </form:update>
+</div>

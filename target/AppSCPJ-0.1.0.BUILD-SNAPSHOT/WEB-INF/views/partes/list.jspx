@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_br_com_appscpj_domain_Parte" items="${partes}" z="8T0QSDy6D8AY4EPjcCG1z4UDVEc=">
+        <table:table data="${partes}" id="l_br_com_appscpj_domain_Parte" path="/partes" z="6Leb4/83zJYJdeChQdEIN0KCX/E=">
+            <table:column id="c_br_com_appscpj_domain_Parte_nome" property="nome" z="JvworbZMEWQREt+Ky6PRyNi0zXU="/>
+            <table:column id="c_br_com_appscpj_domain_Parte_rg" property="rg" z="WL4dM9pAWVVaTXA1+GuWPXBz2mM="/>
+            <table:column id="c_br_com_appscpj_domain_Parte_cpf" property="cpf" z="VbDjUPauX5seGdIDiXWcOePzix0="/>
+            <table:column id="c_br_com_appscpj_domain_Parte_rua" property="rua" z="nyPe14ubYGdxcS/6hV2TcNnR5nc="/>
+            <table:column id="c_br_com_appscpj_domain_Parte_numero" property="numero" z="pJZdIwtv7oP9y62JhbbBWnxXbFA="/>
+            <table:column id="c_br_com_appscpj_domain_Parte_complemento" property="complemento" z="INQUW75+lzMjnPtMPYzo3RYUC4c="/>
+        </table:table>
+    </page:list>
+</div>

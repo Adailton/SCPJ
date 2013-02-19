@@ -1,0 +1,8 @@
+2013-02-18 21:30:03,244 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table processo_advogados drop foreign key FK4D6B37F32F80B1BC
+2013-02-18 21:30:03,244 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - Table 'appscpj.processo_advogados' doesn't exist
+2013-02-18 21:30:03,246 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table processo_advogados drop foreign key FK4D6B37F36482B28F
+2013-02-18 21:30:03,246 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - Table 'appscpj.processo_advogados' doesn't exist
+2013-02-18 21:30:03,248 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table processo_partes drop foreign key FKCFF8F1202F80B1BC
+2013-02-18 21:30:03,248 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - Table 'appscpj.processo_partes' doesn't exist
+2013-02-18 21:30:03,249 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table processo_partes drop foreign key FKCFF8F120C695AA37
+2013-02-18 21:30:03,249 [main] ERROR org.hibernate.tool.hbm2ddl.SchemaExport - Table 'appscpj.processo_partes' doesn't exist
